@@ -1,21 +1,10 @@
-// src/styles/_variables.scss
-
 $cell-size: 98px;
 $gap-size: 1px;
-$cell-border: 1px;
+$cell-border: 1px solid black;
 $cell-color: #eee;
 $cell-hover-color: #ffbfcb;
-$font-size: 30px;
 $font-family: Arial, Helvetica, sans-serif;
-$dayss: (
-  'mon': 0,
-  'tue': 1,
-  'wed': 2,
-  'thu': 3,
-  'fri': 4,
-  'sat': 5,
-  'sun': 6,
-);
+$font-size: 30px;
+$dayss: ('sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat');
 $calendar-width: (7 * $cell-size) + (6 * $gap-size);
 $calendar-padding: 10px;
-$total-cell-size: $cell-size + ($cell-border * 2);
